@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {EstadoPrincipal} from './components/ContextoPrincipal';
 ReactDOM.render(
+  <EstadoPrincipal>
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </EstadoPrincipal>,
   document.getElementById('root')
 );
 
